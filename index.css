@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    width: 100%;
+    height: 100px;
+    background-color: #181818;
+    padding: 20px;
+}
+
+header footer, h1{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+}
+main{
+    background-color: #FD841F;
+    height: 100vh;
+}
+.contenedor__section{
+    padding: 25px 0;
+}
+form{
+    background-color: #FFAE6D;
+    display: grid;
+    padding: 20px;
+    justify-items: center;
+}
+label{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+input{
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 10px 0;
+    border: #FD841F 1px solid;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+    background-color: #FD841F;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+.contenedor__php{
+    background-color: #FD841F;
+    display: grid;
+}
+.contenedor__correcto{
+    background-color: #92D65D;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    text-align:justify;
+    font-weight: bold;
+    margin: 20px;
+    display: grid;
+    justify-items: center;
+}
+.contenedor__correcto h2{
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.contenedor__error{
+    background-color: #FF896F;
+    color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    text-align:justify;
+    font-weight: bold;
+    margin: 20px;
+}
+@media(min-width:500px){
+    form{
+        width: 500px;
+        border: 1px #FECD70 solid;
+        border-radius: 20px;
+        margin:  0 auto;
+        -webkit-box-shadow: 2px -1px 29px 0px rgba(255,174,109,1);
+        -moz-box-shadow: 2px -1px 29px 0px rgba(255,174,109,1);
+        box-shadow: 2px -1px 29px 0px rgba(255,174,109,1);
+    }
+    .contenedor__correcto, .contenedor__error{
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}   
